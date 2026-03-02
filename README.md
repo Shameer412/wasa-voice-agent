@@ -1,205 +1,240 @@
 <div align="center">
 
-# 🌊 WASA Smart Triage AI Dashboard
+```
+██╗    ██╗ █████╗ ███████╗ █████╗
+██║    ██║██╔══██╗██╔════╝██╔══██╗
+██║ █╗ ██║███████║███████╗███████║
+██║███╗██║██╔══██║╚════██║██╔══██║
+╚███╔███╔╝██║  ██║███████║██║  ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+     SMART TRIAGE AI — DASHBOARD
+```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18"/>
-  <img src="https://img.shields.io/badge/TypeScript-5.x-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/Shameer412/wasa-voice-agent?style=social" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Shameer412/wasa-voice-agent?style=social" alt="Forks"/>
-  <img src="https://img.shields.io/github/issues/Shameer412/wasa-voice-agent" alt="Issues"/>
-  <img src="https://img.shields.io/github/license/Shameer412/wasa-voice-agent" alt="License"/>
-</p>
+<h3>A full-stack UI system built to demonstrate modern frontend architecture,<br/>AI-assisted product thinking, and real-world system design.</h3>
 
 <br/>
 
-**An AI-powered complaint management system for public utilities — built to handle real emergencies, at scale, 24/7.**
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-Featuring a multilingual **AI Voice Agent**, real-time **NLP triage**, and a glassmorphic **Kanban Dashboard** — WASA Smart Triage transforms how utility agencies respond to citizens.
+<br/>
 
-[🚀 Live Demo](#) · [📖 Documentation](#) · [🐛 Report Bug](https://github.com/Shameer412/wasa-voice-agent/issues) · [✨ Request Feature](https://github.com/Shameer412/wasa-voice-agent/issues)
+> **⚡ This is a frontend UI/UX portfolio project.**  
+> Built to showcase component architecture, glassmorphic design systems, and AI-integrated product thinking.
 
 </div>
 
 ---
 
-## 📸 Screenshots
+## 🎯 What This Project Actually Is
 
-> _Coming soon — add your dashboard screenshots here._
+This isn't a tutorial clone. This isn't a school assignment.
 
----
+I designed and built this to answer one question: **"Can I design and architect a real-world AI-powered utility management system from scratch — UI, component structure, data flow, and all?"**
 
-## 🌟 Why WASA Smart Triage?
+The answer is yes. Here's the proof.
 
-Every minute matters when a hospital's water supply fails or a main pipe bursts in a residential area. Traditional complaint hotlines rely on manual intake — creating delays, miscommunication, and missed priorities.
-
-**WASA Smart Triage AI** solves this by:
-
-- 🤖 **Automating the first line of contact** — no human agent needed for intake
-- 🧠 **Intelligently prioritizing** every complaint in real-time using NLP
-- 🌐 **Serving citizens in their own language** — Urdu & English out of the box
-- 📊 **Giving teams a live operational view** through a modern Kanban board
+**What I was practicing:**
+- Translating a complex domain (public utility complaints) into clean, reusable UI components
+- Designing a system with real-world constraints: multilingual users, urgent triage, high-volume tickets
+- Applying AI-assisted development as a workflow — using AI as a collaborator, not a crutch
+- Building a glassmorphic design system that's consistent, scalable, and actually usable
 
 ---
 
-## ✨ Key Features
+## 🤖 On AI-Assisted Development
 
-### 🤖 AI Voice Agent (Multilingual)
-- Communicates fluently in **Urdu and English**
-- **Auto-generates tickets** from voice calls — no manual data entry
-- Extracts caller name, location, and issue type using **NLP**
-- Powered by **Google TTS** for natural, human-like responses
+> I used AI (Claude) to help design and build parts of this project. I'm not hiding that — I'm proud of it.
 
-### 🧠 Smart Triage & NLP Engine
-| Feature | Description |
-|---|---|
-| Priority Scoring | AI-generated urgency score (0–100) per complaint |
-| Auto-Categorization | Classifies issues: Pipe Burst, No Water, Sewerage, etc. |
-| Sentiment Analysis *(Beta)* | Detects caller distress for smarter escalation |
+Here's the truth about modern frontend development: **the best engineers know how to leverage AI effectively.** That means:
 
-### 📊 Kanban Dashboard
-- **Glassmorphic dark-mode UI** with smooth micro-animations
-- **Drag-and-drop workflow** across `New → In Progress → Escalated → Resolved`
-- **Real-time stats** — critical case counts, SLA metrics, and team performance
-- Fully **responsive** for desktop and tablet use
+- Knowing *what* to prompt for — you need architectural clarity first
+- Knowing *when* the AI output is wrong — you need expertise to evaluate it  
+- Knowing *how* to iterate toward quality — you need taste and judgment
+
+This project demonstrates all three. Every component, every data flow decision, every design choice — I understood, evaluated, and owned it.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 System Design Walkthrough
 
-| Layer | Technology |
-|---|---|
-| Frontend Framework | React 18 + TypeScript |
-| Styling | Tailwind CSS with custom glassmorphism |
-| Icons | Lucide React |
-| Voice Engine | Google TTS (Text-to-Speech) |
-| Build Tool | Vite |
-| State Management | Type-safe React hooks |
+> This is the architecture I designed. Understanding this was the whole point.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    CITIZEN TOUCHPOINT                        │
+│   📞 Phone Call  ·  🌐 Web Portal  ·  📱 WhatsApp (future)  │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   AI VOICE AGENT LAYER                       │
+│                                                              │
+│   🗣️  Google TTS (Urdu / English)                           │
+│   🧠  NLP Extraction  →  Name · Location · Issue Type        │
+│   📊  Priority Scorer  →  Urgency Score (0–100)              │
+│   💬  Sentiment Analysis (Beta) →  Caller Distress Level     │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      TRIAGE ENGINE                           │
+│                                                              │
+│   Category Assignment  ──→  Pipe Burst / No Water / Sewage  │
+│   Priority Queue       ──→  Critical / High / Medium / Low  │
+│   SLA Clock            ──→  Starts automatically on creation │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  KANBAN DASHBOARD  ← This UI                 │
+│                                                              │
+│   [ New ]  →  [ In Progress ]  →  [ Escalated ]  →  [ ✓ ]  │
+│                                                              │
+│   Real-time stats  ·  Drag-and-drop  ·  Glassmorphic UI     │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+                           ▼
+                  Field Team Dispatch
+```
+
+### Component Architecture
+
+```
+src/
+├── components/
+│   ├── kanban/
+│   │   ├── KanbanBoard.tsx       # Orchestrates columns + DnD context
+│   │   ├── KanbanColumn.tsx      # Status column with droppable zone
+│   │   └── TicketCard.tsx        # Draggable card with priority badge
+│   │
+│   ├── voice/
+│   │   ├── VoiceAgent.tsx        # Agent interface & state machine
+│   │   ├── TranscriptView.tsx    # Live transcript with entity highlights
+│   │   └── LanguageToggle.tsx    # Urdu ↔ English switch
+│   │
+│   ├── analytics/
+│   │   ├── StatCard.tsx          # Reusable KPI tile
+│   │   ├── PriorityChart.tsx     # Issue distribution chart
+│   │   └── SLATracker.tsx        # Response time monitoring
+│   │
+│   └── layout/
+│       ├── Sidebar.tsx           # Navigation + collapse behavior
+│       └── TopNav.tsx            # Search, notifications, user menu
+│
+├── hooks/
+│   ├── useTickets.ts             # Ticket CRUD + optimistic updates
+│   └── useToast.ts               # Notification system
+│
+└── types/
+    ├── ticket.ts                 # Ticket interface + enums
+    └── agent.ts                  # Voice agent state types
+```
 
 ---
 
-## 🚀 Getting Started
+## ✨ UI Design System
 
-### Prerequisites
+### Design Philosophy
+> *"Glassmorphism done right — depth without noise, clarity without flatness."*
 
-Make sure you have the following installed:
+```
+DESIGN TOKENS
+──────────────────────────────────────────────────────
+Background      #0a0f1e           Deep Navy
+Surface         rgba(255,255,255,0.05) + backdrop-blur
+Border          rgba(255,255,255,0.10)
+Text Primary    #f0f4ff
+Text Muted      #8892a4
+Accent Blue     #3b82f6
+Accent Cyan     #06b6d4
+Critical        #ef4444
+Warning         #f59e0b
 
-- [Node.js](https://nodejs.org/) v16.x or higher
-- npm v8.x or higher
+TYPOGRAPHY
+──────────────────────────────────────────────────────
+Display         Space Grotesk    (headers, stats, KPIs)
+Body            Inter            (content, labels, forms)
+Mono            JetBrains Mono   (ticket IDs, timestamps)
 
-### Installation
+MOTION
+──────────────────────────────────────────────────────
+Drag spring     cubic-bezier(0.34, 1.56, 0.64, 1)
+Fade-in         opacity 0→1 + translateY 8px, 200ms ease
+Priority pulse  @keyframe, 2s infinite — critical tickets only
+```
+
+### Priority Color System
+
+| Priority | Score Range | Indicator | Typical Case |
+|----------|-------------|-----------|--------------|
+| 🔴 Critical | 80 – 100 | `#ef4444` | Hospital, school, emergency |
+| 🟠 High | 60 – 79 | `#f59e0b` | Commercial area, 10+ households |
+| 🟡 Medium | 40 – 59 | `#3b82f6` | Residential complaints |
+| 🟢 Low | 0 – 39 | `#10b981` | Minor issues, monitoring |
+
+---
+
+## 🚀 Run It Locally
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/Shameer412/wasa-voice-agent.git
 cd wasa-voice-agent
-
-# 2. Install dependencies
 npm install
-
-# 3. Start the development server
 npm run dev
+# → http://localhost:5173
 ```
-
-The app will be running at `http://localhost:5173` by default.
-
-### Build for Production
 
 ```bash
-npm run build
-npm run preview
+npm run build    # production build
+npm run preview  # preview production build
+npm run lint     # ESLint check
 ```
 
 ---
 
-## 📂 Project Structure
+## 📈 What I Built This to Demonstrate
 
-```
-wasa-voice-agent/
-├── public/                  # Static assets
-└── src/
-    ├── components/
-    │   ├── analytics/       # Data visualizations & KPI stats
-    │   ├── kanban/          # Kanban board, columns, and cards
-    │   ├── voice/           # AI Voice Agent UI & logic
-    │   └── layout/          # Sidebar, Navbar, and shell components
-    ├── hooks/               # Custom React hooks (tickets, toasts, state)
-    ├── types/               # TypeScript interfaces & enums
-    └── data/                # Mock complaint data & seed scripts
-```
+| Skill Area | What This Project Shows |
+|---|---|
+| **Component Design** | Reusable, prop-typed components with clear, single responsibilities |
+| **State Architecture** | Complex ticket state managed with custom hooks + optimistic updates |
+| **Design Systems** | Consistent token-based system across colors, spacing, and motion |
+| **AI Collaboration** | Effective prompting, output evaluation, and iterating to quality |
+| **Domain Modeling** | Real-world utility ops translated into clean TypeScript interfaces |
+| **DX & Tooling** | Vite, strict TypeScript, ESLint, path aliases, clean project structure |
 
 ---
 
-## 🔄 Workflow Overview
+## 🗺️ If This Were Production
 
-```
-Citizen Call
-    │
-    ▼
-AI Voice Agent (Urdu/English)
-    │  Extracts: Name, Location, Issue Type
-    ▼
-NLP Triage Engine
-    │  Assigns: Priority Score, Category, Sentiment
-    ▼
-Kanban Board
-    │  Columns: New → In Progress → Escalated → Resolved
-    ▼
-Field Team Dispatch
-```
+Decisions I'd make with a real backend, team, and budget:
 
----
-
-## 🗺️ Roadmap
-
-- [x] AI Voice Agent (Urdu + English)
-- [x] NLP-based triage & categorization
-- [x] Glassmorphic Kanban dashboard
-- [x] Drag-and-drop ticket management
-- [ ] Live backend integration (REST API)
-- [ ] SMS/WhatsApp notifications for citizens
-- [ ] Advanced analytics & SLA dashboards
-- [ ] Role-based access control (Admin / Supervisor / Field Agent)
-- [ ] Mobile app (React Native)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to get started:
-
-```bash
-# Fork the repo, then:
-git checkout -b feature/your-feature-name
-git commit -m "feat: add your feature"
-git push origin feature/your-feature-name
-# Open a Pull Request
-```
-
-Please follow the existing code style and open an issue before making large changes.
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
----
-
-## 👤 Author
-
-**Muhammad Shameer**  
-GitHub: [@Shameer412](https://github.com/Shameer412)
-
-> _Built with ❤️ to make public services faster, smarter, and more human._
+- [ ] WebSocket — live ticket updates across all connected agents
+- [ ] Auth — role-based access (Admin / Supervisor / Field Agent)
+- [ ] REST API + PostgreSQL — persistent ticket storage and history
+- [ ] Twilio — real voice call handling and recording
+- [ ] Push notifications — SLA breach alerts before they happen
+- [ ] Offline support — service workers for field teams with poor connectivity
+- [ ] React Native — mobile app for field agents in the field
 
 ---
 
 <div align="center">
-  <sub>If this project helped you, consider giving it a ⭐ on GitHub!</sub>
+
+---
+
+**Designed & built by [Muhammad Shameer](https://github.com/Shameer412)**
+
+*Frontend developer · UI/UX thinker · AI-native builder*
+
+<br/>
+
+*This project exists to show what I can design, architect, and ship.*  
+*If you're a recruiter or engineer reading this — let's talk.*
+
+---
+
 </div>
